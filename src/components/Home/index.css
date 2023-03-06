@@ -1,0 +1,60 @@
+.failure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-img {
+  width: 40%;
+}
+
+.failure-head {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.failure-desc {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+}
+
+.retry-btn {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #4656a1;
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #1e293b;
+  font-weight: 600;
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+
+.list-items {
+  list-style-type: none;
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}

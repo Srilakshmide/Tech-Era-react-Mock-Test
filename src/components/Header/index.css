@@ -1,0 +1,12 @@
+.header {
+  background-color: #f1f5f9;
+  max-height: 12vh;
+  padding: 20px 40px;
+}
+
+.logo {
+  width: 120px;
+  height: 40px;
+  margin-left: 50px;
+  cursor: pointer;
+}
