@@ -45,7 +45,11 @@ class CourseDetails extends Component {
         <p className="failure-desc">
           We cannot seem to find the page you are looking for.
         </p>
-        <button type="button" className="retry-btn" onClick={this.onClickRetry}>
+        <button
+          type="button"
+          className="retry-btn"
+          onClick={this.onClickRetryBtn}
+        >
           Retry
         </button>
       </div>

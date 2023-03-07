@@ -60,11 +60,14 @@ class Home extends Component {
     const {courseData} = this.state
 
     return (
-      <ul className="list-items">
-        {courseData.map(course => (
-          <CourseItem key={course.id} course={course} />
-        ))}
-      </ul>
+      <>
+        <h1 className="heading">Courses</h1>
+        <ul className="list-items">
+          {courseData.map(course => (
+            <CourseItem key={course.id} course={course} />
+          ))}
+        </ul>
+      </>
     )
   }
 
@@ -75,7 +78,6 @@ class Home extends Component {
       <>
         <Header />
         <div className="bg-container">
-          <h1 className="heading">Courses</h1>
           {isLoading ? this.renderLoader() : ''}
           {statusFail ? this.renderFailureView() : this.renderCourses()}
         </div>

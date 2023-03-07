@@ -6,7 +6,7 @@
 }
 
 .failure-img {
-  width: 40%;
+  width: 30%;
 }
 
 .failure-head {
@@ -20,6 +20,7 @@
   font-family: 'Roboto';
   font-size: 16px;
   color: #475569;
+  margin-top: 0px;
 }
 
 .retry-btn {
